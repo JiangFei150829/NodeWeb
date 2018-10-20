@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function buttonClickEvent(path) {
+            window.location.href = path;
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1>
+        <%= url %>
+            <%= a %>个</h1>
+    <ul>
+        <% for(var i = 0; i < news.length; i++){ %>
+            <li>
+                <%= news[i] %>
+            </li>
+            <%}%>
+    </ul>
+    <a href=<%=url %>>页面条跳转</a>
+    <button onclick="buttonClickEvent(this.id)" id=<%=url %>>button</button>
+    <button onclick="buttonClickEvent(this.id)" id=<%=url %>>button2</button>
+</body>
+
+</html>

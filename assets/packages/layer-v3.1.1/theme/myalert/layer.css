@@ -1,0 +1,42 @@
+﻿body .alert-message {
+    border-radius: 5px;
+}
+
+body .alert-message .layui-layer-title {
+    background: #F8F8F8;
+    color: #696969;
+    border-bottom: 1px solid #E9E7E7;
+    border-radius: 5px;
+}
+    body .alert-message .layui-layer-btn {
+        text-align:center;
+        color: #696969;
+        font-size:12px;
+        padding-bottom:15px;
+    }
+        
+
+body .alert-message .layui-layer-btn a {
+    background: #fff;
+}
+
+body .alert-message .layui-layer-btn .layui-layer-btn0 {
+    background: #fff;
+    border: 1px solid #DCDCDC;
+    border-radius: 2px;
+    color: #696969; 
+}
+
+body .alert-message .layui-layer-btn .layui-layer-btn1 {
+    margin-left: 30px;
+    color: #696969;
+}
+    body .alert-message .layui-layer-content {
+        color: #696969;
+        font-size: 16px;
+        text-align: center;
+        padding: 20px 20px 20px 20px;  
+    }
+.layui-layer-dialog .layui-layer-content .layui-layer-ico {
+    position: static;
+}
