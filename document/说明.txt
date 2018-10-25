@@ -1,1 +1,7 @@
 #该案例主要使用的web框架是express
+
+
+#手动安装过的模块
+#express
+#mysql
+#

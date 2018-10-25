@@ -5,6 +5,10 @@ var DataController = require("./controllers/dataController");
 var PageJump = require("./controllers/pageJump");
 
 
+const routes = require('./controllers/routes');
+
+
+app.use('/routes', routes);
 
 var dataController = new DataController();
 var pageJump = new PageJump();
